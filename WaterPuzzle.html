@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Puzzle Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="waterpuzzle.js"></script>
+    <link rel="icon" href="img/tube.png" type="image/png">
+</head>
+<body>
+    <h1>Water Puzzle</h1>
+    <div id="game-info" class="game-area">
+        <p>關卡：<span id=level-count>1</span></p>
+        <p>完成的試管：<span id="completed-tubes-count">0</span></p>
+    </div>
+    <div id="controls" class="game-area">
+        <label for="level-select">關卡</label>
+        <select id="level-select">
+            <option value="1">第一關</option>
+            <option value="2">第二關</option>
+            <option value="3">第三關</option>
+            <option value="4">第四關</option>
+            <option value="5">第五關</option>
+            <option value="6">第六關</option>
+            <option value="7">第七關</option>
+            <option value="8">第八關</option>
+            <option value="9">第九關</option>
+            <option value="10">第十關</option>
+        </select>
+        <button id ="play-button">遊玩</button>
+    </div>
+    <div id="game-container" class="game-area">
+    </div>
+    <a href="index.html" class="playbutton">回首頁</a>
+</body>
+</html>
