@@ -188,7 +188,7 @@ function confirmExit() {
 }
 
 function byebyeweb() {
-  location.replace("https://flipclass.stust.edu.tw/");
+  location.replace("https://hawhawian.github.io/IanJavaScriptWeb/");
 }
 
 function byebye() {
