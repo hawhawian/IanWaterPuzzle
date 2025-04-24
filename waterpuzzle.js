@@ -176,6 +176,20 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+function startgame() {
+  location.replace("WaterPuzzle.html");
+}
+
 function confirmExit() {
-  return confirm("你確定要退出遊戲嗎？");
+  if (confirm("你確定要退出遊戲嗎？")) {
+    location.replace("index.html");
+  }
+  return false;
+}
+
+function byebyeweb() {
+  location.replace("https://flipclass.stust.edu.tw/");
+}
+
+function byebye() {
 }
