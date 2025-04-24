@@ -175,3 +175,7 @@ document.addEventListener("DOMContentLoaded", () => {
     fillTubes();
   });
 });
+
+function confirmExit() {
+  return confirm("你確定要退出遊戲嗎？");
+}
